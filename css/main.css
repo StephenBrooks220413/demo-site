@@ -1,0 +1,148 @@
+.container-wrapper {
+    background: url(../images/devmountain.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.container-wrapper-2 {
+    background: url(../images/looking.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.inside-text {
+    border: 1px solid grey;
+    background-color: grey;
+    opacity: 0.6;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 35%;
+    justify-content: center;
+}
+
+.content-title {
+    position: absolute;
+    top: 75px;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 9px 8px 10px;
+}
+
+.position-1 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+.position-1::-webkit-scrollbar {
+    position: absolute;
+    transition-delay: auto;
+    transform: scale(0.8);
+    transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    transition-delay: 3s;
+    font-size: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+/* carousel image wrapper */
+.carousel-wrapper {
+    background: url(../images/overseer.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.carousel-wrapper h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.number {
+    font-size: 4.5rem;
+    color: grey;
+    padding-top:275px;
+    padding-left: 155px;
+}
+
+.carousel-wrapper p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.section {
+    background-color: darkblue;
+    color: white;
+}
+
+/* media queries */
+@media (min-width:610px) {
+    #nav-1 {
+        display: block;
+    }
+    #nav-2 {
+        display: none;
+    }
+}
+
+@media (max-width:609px) {
+    #nav-2 {
+        display: block;
+    }
+    #nav-1 {
+        display: none;
+    }
+    .content-title {
+        position: static;
+        padding-top: 30px;
+    }
+    .position-1 {
+        position: static;
+    }
+}
+
+
+
+
+/* footer classes */
+footer {
+    margin-top: 65px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(21, 21, 82);
+    color: white;
+}
+
+li { 
+    list-style: none;
+}
